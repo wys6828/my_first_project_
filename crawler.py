@@ -4,3 +4,5 @@ url = "https://quotes.toscrape.com/"
 r = requests.get(url)
 
 print(r.status_code)
+print(r.encoding)
+print(r.text[:500])
